@@ -46,38 +46,7 @@ uploaded source contains `ToggleApp.jsx`.
     -   When the message is visible, it displays **Hide Message**.
 5.  React conditionally displays the paragraph `I love Computer!` when
     `isVisible` is `true`.
-
-## Getting Started
-
-### Prerequisites
-
--   Node.js and npm
--   A React project (for example, one created with Vite)
-
-### Setup
-
-1.  Open your React project.
-2.  Place `ToggleApp.jsx` inside the `src` directory.
-3.  Import and render the component in your app's entry component, such
-    as `App.jsx`:
-
-``` jsx
-import { ToggleApp } from "./ToggleApp";
-
-function App() {
-  return <ToggleApp />;
-}
-
-export default App;
-```
-
-4.  Start the development server using the command provided by your
-    React project. In a typical Vite project, run:
-
-``` bash
-npm install
-npm run dev
-```
+    
 
 ## CSS Customization
 
@@ -99,14 +68,3 @@ This exercise demonstrates how to:
 -   Handle button click events with `onClick`.
 -   Use conditional rendering with the logical `&&` operator.
 -   Update interface text dynamically based on component state.
-
-## Notes
-
--   The message is hidden by default.
--   The component manages its own visibility state.
--   The uploaded source does not include styling, tests, or a complete
-    React project configuration.
-
-## Author
-
-Add your name here.
